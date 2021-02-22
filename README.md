@@ -2,9 +2,8 @@
 Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 
 son güncelleme: 21.02.2021
-https://apicrow.com/adres
 
-# ÖRNEK KULLANIM:
+# ÖRNEK KULLANIM: https://apicrow.com/adres
 
 	<head>
     <script type="text/javascript" src="https://apicrow.com/adres/select.js" language="javascript"></script>
