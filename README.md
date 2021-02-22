@@ -42,7 +42,7 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 
 
 # kurulumu:
-1)head tagının içerisine aşağıdaki kodu ekle
+1) head tagının içerisine aşağıdaki kodu ekle
 	
 		<script type="text/javascript" src="https://apicrow.com/adres/select.js" language="javascript"></script>
 
