@@ -1,7 +1,7 @@
 # turkiye-ilce-il-mahalle-sokak-cadde-select-doldurma
 Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 
-son güncelleme: 21.02.2021
+datanın son güncelleme tarihi: 21.02.2021
 
 # ÖRNEK KULLANIM: https://apicrow.com/adres
 
