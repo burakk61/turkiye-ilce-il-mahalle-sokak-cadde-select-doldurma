@@ -52,12 +52,16 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 			select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
 		</script>
 
-ilselect:şehirlerin listelenmesini istediğiniz select'in id numarası. (gerekli)
+ilselect:
+şehirlerin listelenmesini istediğiniz select'in id numarası. (gerekli)
 
-ilceselect: İlçelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+ilceselect:
+İlçelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
 
-mahalleselect: Mahallelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+mahalleselect:
+Mahallelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
 
-caddeselect: Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+caddeselect:
+Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
 
 
