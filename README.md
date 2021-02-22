@@ -46,7 +46,7 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 	
 		<script type="text/javascript" src="https://apicrow.com/adres/select.js" language="javascript"></script>
 
-2) footer bölümüne aşağıdaki kodu ekle	<script>
+2) footer bölümüne aşağıdaki kodu ekle
 		
 		<script>
 			select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
