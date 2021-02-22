@@ -77,3 +77,11 @@ Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (i
 		select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
 
 
+#CEVAP
+
+Select post edildiğinde cevabı string veri tipinde, JSON formatında alırsınız.
+
+örnek post çıktısı {"id":"108275","value":"BEŞİKDÜZÜ"} şeklinde olur. Bu değeri parse ederek istediğiniz kısmı ayıklayabilirsiniz.
+		
+
+
