@@ -52,6 +52,8 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 			select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
 		</script>
 
+# gereklilikler:
+
 ilselect:
 şehirlerin listelenmesini istediğiniz select'in id numarası. (gerekli)
 
