@@ -37,5 +37,5 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 	</body>
   
 	<script>
-  	select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
-  	</script>
+	select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
+	</script>
