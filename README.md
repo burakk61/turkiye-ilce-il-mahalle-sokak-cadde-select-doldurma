@@ -57,22 +57,22 @@ datanın son güncelleme tarihi: 21.02.2021
 # gereklilikler:
 
 ilselect:
-şehirlerin listelenmesini istediğiniz select'in id numarası. (gerekli)
+şehirlerin listelenmesini istediğiniz select'in id ismi. (gerekli)
 
 		select({ilListesi:"ilselect"});
 
 ilceselect:
-İlçelerin listelenmesini istediğiniz select'in id numarası. (ilListesi şart)
+İlçelerin listelenmesini istediğiniz select'in id ismi. (ilListesi şart)
 
 		select({ilListesi:"ilselect",ilceListesi:"ilceselect"});
 
 mahalleselect:
-Mahallelerin listelenmesini istediğiniz select'in id numarası. (ilListesi ve ilceListesi şart)
+Mahallelerin listelenmesini istediğiniz select'in id ismi. (ilListesi ve ilceListesi şart)
 
 		select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect"});
 
 caddeselect:
-Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (ilListesi,ilceListesi ve cadde_sokakListesi şart)
+Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id ismi. (ilListesi,ilceListesi ve cadde_sokakListesi şart)
 
 		select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
 
