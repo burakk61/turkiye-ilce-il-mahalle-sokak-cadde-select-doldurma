@@ -24,7 +24,7 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 
 	<select id="mahalleselect">
 	<option>...</option>
-    	<option>...</option>
+	<option>...</option>
    	<option>...</option>
 	</select>
 
