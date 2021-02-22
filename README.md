@@ -55,13 +55,21 @@ Türkiye güncel il-ilçe-mahalle-cadde/sokak adres bilgisini sunar.
 ilselect:
 şehirlerin listelenmesini istediğiniz select'in id numarası. (gerekli)
 
+			select({ilListesi:"ilselect"});
+
 ilceselect:
-İlçelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+İlçelerin listelenmesini istediğiniz select'in id numarası. (ilListesi şart)
+
+			select({ilListesi:"ilselect",ilceListesi:"ilceselect"});
 
 mahalleselect:
-Mahallelerin listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+Mahallelerin listelenmesini istediğiniz select'in id numarası. (ilListesi ve ilceListesi şart)
+
+			select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect"});
 
 caddeselect:
-Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (boş bırakılabilir)
+Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (ilListesi,ilceListesi ve cadde_sokakListesi şart)
+
+			select({ilListesi:"ilselect",ilceListesi:"ilceselect",mahalleListesi:"mahalleselect",cadde_sokakListesi:'caddeselect'});
 
 
