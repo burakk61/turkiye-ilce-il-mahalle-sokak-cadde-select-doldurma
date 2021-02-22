@@ -81,7 +81,7 @@ Cadde/Sokak/KümeEvler'in listelenmesini istediğiniz select'in id numarası. (i
 
 Select post edildiğinde cevabı string veri tipinde, JSON formatında alırsınız.
 
-örnek post çıktısı {"id":"108275","value":"BEŞİKDÜZÜ"} şeklinde olur. Bu değeri parse ederek istediğiniz kısmı ayıklayabilirsiniz.
+örnek post çıktısı "{"id":"108275","value":"BEŞİKDÜZÜ"}" şeklinde olur. Bu değeri parse ederek istenilen kısmı ayıklayabilirsiniz.
 		
 
 
